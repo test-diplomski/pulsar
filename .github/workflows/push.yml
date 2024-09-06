@@ -12,42 +12,6 @@ jobs:
       steps:
         - name: Check out main repository
           uses: actions/checkout@v4
-
-        # - name: Check additional repo
-        #   uses: actions/checkout@v4
-        #   with:
-        #     repository: 'test-diplomski/gravity'
-        #     path: 'gravity'
-
-        # - name: Move gravity to parent directory
-        #   run: mv gravity ../gravity
-
-        # - name: Check additional repo
-        #   uses: actions/checkout@v4
-        #   with:
-        #     repository: 'test-diplomski/magnetar'
-        #     path: 'magnetar'
-
-        # - name: Move magnetar to parent directory
-        #   run: mv magnetar ../magnetar
-
-        # - name: Check additional repo
-        #   uses: actions/checkout@v4
-        #   with:
-        #     repository: 'test-diplomski/oort'
-        #     path: 'oort'
-
-        # - name: Move oort to parent directory
-        #   run: mv oort ../oort
-
-        # - name: Check additional repo
-        #   uses: actions/checkout@v4
-        #   with:
-        #     repository: 'test-diplomski/pulsar'
-        #     path: 'pulsar'
-
-        # - name: Move pulsar to parent directory
-        #   run: mv pulsar ../pulsar
           
         - name: Set up Go
           uses: actions/setup-go@v5
